@@ -1,0 +1,2500 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases
+,,,,,,,,,,,,,,,,,,,,1,,Sanity,1
+,,,,,,,,,,,,,,,,,,,,2,,Create Trivia Game,1
+,,,,,,,,,,,,,,,,,,,,3,,Playing The Trivia Game,1
+,,,,,,,,,,,,,,,,,,,,10,,Results,1
+1,Sanity,,,,,undefined,normal,smoke,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Type ""Yes"" in 1st answer field
+6. Type ""No"" in 2nd answer field
+7. Type ""Maybe"" in 3rd answer field
+8. Type ""Nobody knows"" in 4th answer field
+9. Mark the radio button next to the 1st answer (""Yes"")
+10. Click on ""next""
+11. Fill in ""How many wheels does a car have?""
+12. Click ""next""
+13. Type ""1"" in 1st answer field
+14. Type ""2"" in 1st answer field
+15. Type ""3"" in 1st answer field
+16. Type ""4"" in 1st answer field
+17. Mark the radio button next to the 4th answer (""4"")
+18. Click ""next""
+19. Fill in ""What is the color of a tomato?"" in 3rd question field
+20. Click ""next""
+21. Type ""Green"" in 1st answer field
+22. Type ""Blue"" in 2nd answer field
+23. Type ""Red"" in 3rd answer field
+24. Type ""Yellow"" in 4th answer field
+25. Mark the radio button next to the 3rd answer (""Red"")
+26. Click ""next""
+27. Click ""play""
+28. Click on radio button next to the 3rd question ""Red""
+29. Click ""next""
+30. Mark the radio button next to the 4th answer (""4"")
+31. Click ""next""
+32. Click on radio button next to the 1st question ""Yes""
+33. Click ""next""
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Yes"" appears in 1st answer field
+6. ""No"" appears in 2nd answer field
+7. ""Maybe"" appears in 3rd answer field
+8. ""Nobody"" appears in 4th answer field
+9. Radio button next to 1st answer (""Yes"") turns blue
+10. 2nd question page appears
+11. ""How many wheels does a car have?"" appears in 2nd question field
+12. Web page appears : ""Please type here your question :
+question number: 2""
+13. ""1"" appears in 1st answer field
+14. ""2"" appears in 2nd answer field
+15. ""3"" appears in 3rd answer field
+16. ""4"" appears in 4th answer field
+17. Radio button next to 4th answer (""4"") turns blue
+18. 3rd question page appears
+19. ""What is the color of a tomato?"" appears in 3rd question field
+20. Web page appears: ""Please type here your question :
+question number: 3""
+21. ""Green"" appears in 1st answer field
+22. ""Blue"" appears in 2nd answer field
+23. ""Red"" appears in 3rd answer field
+24. ""Yellow"" appears in 4th answer field
+25. Radio button next to 3rd answer (""Red"") turns blue
+26. ""You finished to build the test - lets play!!"" Appears on next page
+27. Test page with question ""What is the color of a tomato?"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+28. Radio button next to 3rd answer (""Red"") turns blue
+29. Test page with question ""How many wheels does a car have?""?"" with answers: ""1"", ""2"", ""3"", ""4"" appears
+30. Radio button next to 4th answer (""4"") turns blue
+31. Test page with question ""Do cats usually land on their feet?"" with answers: ""Yes"", ""No"", ""Maybe"", ""Nobody knows"" appears
+32. Radio button next to 1st answer (""Yes"") turns blue
+33. \*Result page with ""Success"" appears
+\*Facebook share button appears
+\*""Try again"" and ""Quit"" buttons appear
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 
+33. 
+",,,1,,Sanity,
+3,"Functionality - ""Back"" button in question page",,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Press on ""Back"" button
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. 1st question page appears with the question ""Do cats usually land on their feet?""
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,2,,Create Trivia Game,
+4,"Functionality - ""Back"" button in answer page",,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Type ""Yes"" in 1st answer field
+6. Type ""No"" in 2nd answer field
+7. Type ""Maybe"" in 3rd answer field
+8. Type ""Nobody knows"" in 4th answer field
+9. Mark the radio button next to the 1st answer (""Yes"")
+10. Click on ""next""
+11. Fill in ""How many wheels does a car have?""
+12. Click ""next""
+13. Type ""1"" in 1st answer field
+14. Type ""2"" in 1st answer field
+15. Type ""3"" in 1st answer field
+16. Type ""4"" in 1st answer field
+17. Mark the radio button next to the 4th answer (""4"")
+18. Click ""next""
+19. Fill in ""What is the color of a tomato?"" in 3rd question field
+20. Click ""next""
+21. Type ""Green"" in 1st answer field
+22. Type ""Blue"" in 2nd answer field
+23. Type ""Red"" in 3rd answer field
+24. Type ""Yellow"" in 4th answer field
+25. Mark the radio button next to the 3rd answer (""Red"")
+26. Click ""next""
+27. Click ""play""
+28. Click on radio button next to the 3rd question ""Red""
+29. Click ""next""
+30. Mark the radio button next to the 4th answer (""4"")
+31. Click ""next""
+32. Click on radio button next to the 1st question ""Yes""
+33. Click ""next""
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Yes"" appears in 1st answer field
+6. ""No"" appears in 2nd answer field
+7. ""Maybe"" appears in 3rd answer field
+8. ""Nobody"" appears in 4th answer field
+9. Radio button next to 1st answer (""Yes"") turns blue
+10. 2nd question page appears
+11. ""How many wheels does a car have?"" appears in 2nd question field
+12. Web page appears : ""Please type here your question :
+question number: 2""
+13. ""1"" appears in 1st answer field
+14. ""2"" appears in 2nd answer field
+15. ""3"" appears in 3rd answer field
+16. ""4"" appears in 4th answer field
+17. Radio button next to 4th answer (""4"") turns blue
+18. 3rd question page appears
+19. ""What is the color of a tomato?"" appears in 3rd question field
+20. Web page appears: ""Please type here your question :
+question number: 3""
+21. ""Green"" appears in 1st answer field
+22. ""Blue"" appears in 2nd answer field
+23. ""Red"" appears in 3rd answer field
+24. ""Yellow"" appears in 4th answer field
+25. Radio button next to 3rd answer (""Red"") turns blue
+26. ""You finished to build the test - lets play!!"" Appears on next page
+27. Test page with question ""What is the color of a tomato?"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+28. Radio button next to 3rd answer (""Red"") turns blue
+29. Test page with question ""How many wheels does a car have?""?"" with answers: ""1"", ""2"", ""3"", ""4"" appears
+30. Radio button next to 4th answer (""4"") turns blue
+31. Test page with question ""Do cats usually land on their feet?"" with answers: ""Yes"", ""No"", ""Maybe"", ""Nobody knows"" appears
+32. Radio button next to 1st answer (""Yes"") turns blue
+33. \*Result page with ""Success"" appears
+\*Facebook share button appears
+\*""Try again"" and ""Quit"" buttons appear
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 
+33. 
+",,,2,,Create Trivia Game,
+10,BV - 1 character in question field,,,,,undefined,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""A"" in 1st question field
+4. Click ""next""
+5. Type ""Yes"" in 1st answer field
+6. Type ""No"" in 2nd answer field
+7. Type ""Maybe"" in 3rd answer field
+8. Type ""Nobody knows"" in 4th answer field
+9. Mark the radio button next to the 1st answer (""Yes"")
+10. Click on ""next""
+11. Fill in ""A"" in 2nd questions field
+12. Click ""next""
+13. Type ""1"" in 1st answer field
+14. Type ""2"" in 2nd answer field
+15. Type ""3"" in 3rd answer field
+16. Type ""4"" in 4th answer field
+17. Mark the radio button next to the 4th answer (""4"")
+18. Click ""next""
+19. Fill in ""A"" in 3rd question field
+20. Click ""next""
+21. Type ""Green"" in 1st answer field
+22. Type ""Blue"" in 2nd answer field
+23. Type ""Red"" in 3rd answer field
+24. Type ""Yellow"" in 4th answer field
+25. Mark the radio button next to the 3rd answer (""Red"")
+26. Click ""next""
+27. Click ""play""
+28. Click on radio button next to the 3rd question ""Red""
+29. Click ""next""
+30. Mark the radio button next to the 4th answer (""4"")
+31. Click ""next""
+32. Click on radio button next to the 1st question ""Yes""
+33. Click ""next""
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""A"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Yes"" appears in 1st answer field
+6. ""No"" appears in 2nd answer field
+7. ""Maybe"" appears in 3rd answer field
+8. ""Nobody"" appears in 4th answer field
+9. Radio button next to 1st answer (""Yes"") turns blue
+10. 2nd question page appears
+11. ""A"" appears in 2nd question field
+12. Web page appears : ""Please type here your question :
+question number: 2""
+13. ""1"" appears in 1st answer field
+14. ""2"" appears in 2nd answer field
+15. ""3"" appears in 3rd answer field
+16. ""4"" appears in 4th answer field
+17. Radio button next to 4th answer (""4"") turns blue
+18. 3rd question page appears
+19. ""A"" appears in 3rd question field
+20. Web page appears: ""Please type here your question :
+question number: 3""
+21. ""Green"" appears in 1st answer field
+22. ""Blue"" appears in 2nd answer field
+23. ""Red"" appears in 3rd answer field
+24. ""Yellow"" appears in 4th answer field
+25. Radio button next to 3rd answer (""Red"") turns blue
+26. ""You finished to build the test - lets play!!"" Appears on next page
+27. Test page with question ""A"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+28. Radio button next to 3rd answer (""Red"") turns blue
+29. Test page with question ""A"" with answers: ""1"", ""2"", ""3"", ""4"" appears
+30. Radio button next to 4th answer (""4"") turns blue
+31. Test page with question ""A"" with answers: ""Yes"", ""No"", ""Maybe"", ""Nobody knows"" appears
+32. Radio button next to 1st answer (""Yes"") turns blue
+33. \*Result page with ""Success"" appears
+\*Facebook share button appears
+\*""Try again"" and ""Quit"" buttons appear
+","1. login to https://shemsvcollege.github.io/Trivia/
+2. 
+3. A
+4. 
+5. Yes
+6. No
+7. Maybe
+8. Nobody knows
+9. 
+10. 
+11. A
+12. 
+13. 1
+14. 2
+15. 3
+16. 4
+17. 
+18. 
+19. 
+20. 
+21. Green
+22. Blue
+23. Red
+24. Yellow
+25. 
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 
+33. 
+",,,2,,Create Trivia Game,
+11,BV - 30 characters in answer field,,,,,undefined,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Type ""Nam quis nulla. Integer malesu"" in 1st answer field
+6. Type ""Nam quis nulla. Integer malesu"" in 2nd answer field
+7. Type ""Nam quis nulla. Integer malesu"" in 3rd answer field
+8. Type ""Nam quis nulla. Integer malesu"" in 4th answer field
+9. Mark the radio button next to the 1st answer (""Nam quis nulla. Integer malesu"")
+10. Click on ""next""
+11. Fill in ""How many wheels does a car have?""
+12. Click ""next""
+13. Type ""Nam quis nulla. Integer malesu"" in 1st answer field
+14. Type ""Nam quis nulla. Integer malesu"" in 1st answer field
+15. Type ""Nam quis nulla. Integer malesu"" in 1st answer field
+16. Type ""Nam quis nulla. Integer malesu"" in 1st answer field
+17. Mark the radio button next to the 4th answer (""Nam quis nulla. Integer malesu"")
+18. Click ""next""
+19. Fill in ""What is the color of a tomato?"" in 3rd question field
+20. Click ""next""
+21. Type ""Nam quis nulla. Integer malesu"" in 1st answer field
+22. Type ""Nam quis nulla. Integer malesu"" in 2nd answer field
+23. Type ""Nam quis nulla. Integer malesu"" in 3rd answer field
+24. Type ""Nam quis nulla. Integer malesu"" in 4th answer field
+25. Mark the radio button next to the 3rd answer (""Nam quis nulla. Integer malesu"")
+26. Click ""next""
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Nam quis nulla. Integer malesu"" appears in 1st answer field
+6. ""Nam quis nulla. Integer malesu"" appears in 2nd answer field
+7. ""Nam quis nulla. Integer malesu"" appears in 3rd answer field
+8. ""Nam quis nulla. Integer malesu"" appears in 4th answer field
+9. Radio button next to 1st answer (""Nam quis nulla. Integer malesu"") turns blue
+10. 2nd question page appears
+11. ""How many wheels does a car have?"" appears in 2nd question field
+12. Web page appears : ""Please type here your question :
+question number: 2""
+13. ""Nam quis nulla. Integer malesu"" appears in 1st answer field
+14. ""Nam quis nulla. Integer malesu"" appears in 2nd answer field
+15. ""Nam quis nulla. Integer malesu"" appears in 3rd answer field
+16. ""Nam quis nulla. Integer malesu"" appears in 4th answer field
+17. Radio button next to 4th answer (""Nam quis nulla. Integer malesu"") turns blue
+18. 3rd question page appears
+19. ""What is the color of a tomato?"" appears in 3rd question field
+20. Web page appears: ""Please type here your question :
+question number: 3""
+21. ""Nam quis nulla. Integer malesu"" appears in 1st answer field
+22. ""Nam quis nulla. Integer malesu"" appears in 2nd answer field
+23. ""Nam quis nulla. Integer malesu"" appears in 3rd answer field
+24. ""Nam quis nulla. Integer malesu appears in 4th answer field
+25. Radio button next to 3rd answer (""Nam quis nulla. Integer malesu"") turns blue
+26. ""You finished to build the test - lets play!!"" Appears on next page
+","1. https://shemsvcollege.github.io/Trivia/
+2. 
+3. Do cats usually land on their feet?
+4. 
+5. Nam quis nulla. Integer malesu
+6. Nam quis nulla. Integer malesu
+7. Nam quis nulla. Integer malesuNam quis nulla. Integer malesu
+8. Nam quis nulla. Integer malesu
+9. 
+10. 
+11. How many wheels does a car have?
+12. 
+13. Nam quis nulla. Integer malesu
+14. Nam quis nulla. Integer malesu
+15. Nam quis nulla. Integer malesu
+16. Nam quis nulla. Integer malesu
+17. 
+18. 
+19. What is the color of a tomato?
+20. 
+21. Nam quis nulla. Integer malesu
+22. Nam quis nulla. Integer malesu
+23. Nam quis nulla. Integer malesu
+24. Nam quis nulla. Integer malesu
+25. 
+26. 
+",,,2,,Create Trivia Game,
+12,"EH - Click on ""next"" with no answer option chosen",,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next"" button
+5. Click ""next"" button
+6. Type ""No"" in option number 1 field
+7. Type ""Maybe"" in option number 2 field
+8. Type ""Yes"" in option number 3 field
+9. Type ""Nobody knows"" in option number 4 field
+10. Click on ""next"" button
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. Pop up window shows up with message: ""you have to fill all the fields please"" and a ""confirm"" button
+6. ""No"" appears in option number 1 field
+7. ""Maybe"" appears in option number 2 field
+8. ""Yes"" appears in option number 3 field
+9. ""Nobody knows"" appears in option number 4 field
+10. Pop up window appears with message: ""you have to fill all the fileds please"" and a ""confirm"" button
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+",,,2,,Create Trivia Game,
+13,"EH - Click ""next"" with no questions filled in",,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Click ""next""
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears: ""Please type here your question :
+question number: 1""
+5. Nothing happends, can't move forwad
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,2,,Create Trivia Game,
+14,"EH - Click ""next"" with no answers filled in",,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next"" button
+5. Click ""next"" button
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. Pop up window shows up with message: ""you have to fill all the fields please"" and a ""confirm"" button
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,2,,Create Trivia Game,
+15,EH - More than 50 notes in question field,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet if they jump high"" in 1st question field (52 characters)
+4. Click ""next"" button
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet if they jump high"" appears in 1st question field
+4. The question has been deleted from the question field
+","1. 
+2. 
+3. 
+4. 
+",,,2,,Create Trivia Game,
+16,EH - Question in foreign language,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""האם חתולים נוחתים בדרך כלל על הרגליים?"" in 1st question field
+4. Click ""next""
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""האם חתולים נוחתים בדרך כלל על הרגליים?"" appears in 1st question field
+4. The question has been deleted from the question field
+","1. 
+2. 
+3. 
+4. 
+",,,2,,Create Trivia Game,
+17,EH - Answer in foreign language,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Type ""כן"" in 1st answer field
+6. Type ""לא"" in 2nd answer field
+7. Type ""אולי"" in 3rd answer field
+8. Type ""לא יודע"" in 4th answer field
+9. Mark the radio button next to the 1st answer (""כן"")
+10. Click on ""next""
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""כן"" appears in 1st answer field
+6. ""לא"" appears in 2nd answer field
+7. ""אולי"" appears in 3rd answer field
+8. ""לא יודע"" appears in 4th answer field
+9. Radio button next to 1st answer (""Yes"") turns blue
+10. Answers fields will be deleted and would not redirect to next question
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+",,,2,,Create Trivia Game,
+18,EH - Open web on a non chrome browser,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to ""https://shemsvcollege.github.io/Trivia/"" on explorer browser
+2. Click on ""start"" button
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open on the explorer browser
+2. No option to continue the process - the website is not supported on browsers other than chrome
+","1. 
+2. 
+",,,2,,Create Trivia Game,
+19,"EH - Click ""next"" button while less then 4 answers are filled",,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to ""https://shemsvcollege.github.io/Trivia/""
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Type ""Yes"" in 1st answer field
+6. Type ""No"" in 2nd answer field
+7. Type ""Maybe"" in 3rd answer field
+8. Mark the radio button next to the 1st answer (""Yes"")
+9. Click on ""next"" button
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Yes"" appears in 1st answer field
+6. ""No"" appears in 2nd answer field
+7. ""Maybe"" appears in 3rd answer field
+8. Radio button next to 1st answer (""Yes"") turns blue
+9. Pop up window appears with message: ""you have to fill all the fileds please"" and a ""confirm"" button
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+",,,2,,Create Trivia Game,
+20,EH - More than 30 characters in answer field,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Type ""Yes, cats usually land on feet!"" in 1st answer field (31 char.)
+6. Type ""No"" in 2nd answer field
+7. Type ""Maybe"" in 3rd answer field
+8. Type ""Nobody knows"" in 4th answer field
+9. Mark the radio button next to the 1st answer (""Yes, cats usually land on feet!"")
+10. Click on ""next""
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Yes, cats usually land on feet!"" appears in 1st answer field
+6. ""No"" appears in 2nd answer field
+7. ""Maybe"" appears in 3rd answer field
+8. ""Nobody"" appears in 4th answer field
+9. Radio button next to 1st answer (""Yes"") turns blue
+10. System will not allow to continue to next step
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+",,,2,,Create Trivia Game,
+21,EH - Use numbers in question field,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do 3 cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do 3 cats usually land on their feet?"" appears in 1st question field
+4. The question will be deleted from the question field
+","1. 
+2. 
+3. 
+4. 
+",,,2,,Create Trivia Game,
+22,EH - Use special characters in question field,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet@?"" in 1st question field
+4. Click ""next""
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet@?"" appears in 1st question field
+4. The question has been deleted from the question field
+","1. 
+2. 
+3. 
+4. 
+",,,2,,Create Trivia Game,
+29,"Functionality - ""Back"" button in  1st answer page with mark the radio button next to the 1st answer (""Yes"")","Functionality - ""Back"" button in 1st answer page",,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Open the Google Chrome browser
+2. Type in the URL bar “https://shemsvcollege.github.io/Trivia/ ”
+3. Click on “Start” button
+4. Fill in ""Do cats usually land on their feet?"" in 1st question field
+5. Click on “next” button
+6. Type ""Yes"" in 1st answer field
+7. Type ""No"" in 2nd answer field
+8. Type ""Maybe"" in 3rd answer field
+9. Type ""Nobody knows"" in 4th answer field
+10. Mark the radio button next to the 1st answer (""Yes"")
+11. Click on “Back” button
+","1. Google Chrome browser open
+2. Website page Trivia is open in browser. With text “QA Test, to start the test push the button below! good luck!” end “Start” button.
+3. 1st question page appears “Please type here your question :
+question number: 1” and input form
+4. ""Do cats usually land on their feet?"" appears in 1st question field
+5. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+6. ""Yes"" appears in 1st answer field
+7. ""No"" appears in 2nd answer field
+8. ""Maybe"" appears in 3rd answer field
+9. ""Nobody"" appears in 4th answer field
+10. Radio button next to 1st answer (""Yes"") turns blue
+11. Return to the previous screen showing the question ""Do cats usually land on their feet?"" which can be re-edited
+","1. 
+2. https://shemsvcollege.github.io/Trivia/
+3. 
+4. Do cats usually land on their feet?
+5. 
+6. Yes
+7. No
+8. Maybe
+9. Nobody knows
+10. 
+11. 
+",,,2,,Create Trivia Game,
+31,"Functionality - ""Back"" button in  2nd answer page with mark the radio button next to the 1st answer (""4"")","Functionality - ""Back"" button in 1st answer page without mark the radio button answer",,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Open the Google Chrome browser
+2. Type in the URL bar “https://shemsvcollege.github.io/Trivia/ ”
+3. Click on “Start” button
+4. Fill in ""Do cats usually land on their feet?"" in 1st question field
+5. Click on “next” button
+6. Type ""Yes"" in 1st answer field
+7. Type ""No"" in 2nd answer field
+8. Type ""Maybe"" in 3rd answer field
+9. Type ""Nobody knows"" in 4th answer field
+10. Mark the radio button next to the 1st answer (""Yes"")
+11. Click on “next” button
+12. Fill in ""How many wheels does a car have?""
+13. Click on “next” button
+14. Type ""1"" in 1st answer field
+15. Type ""2"" in 2nd answer field
+16. Type ""3"" in 3rd answer field""3"" appears in 3rd answer field
+17. Type ""4"" in 4th answer field""4"" appears in 4th answer field
+18. Mark the radio button next to the 4th answer (""4"")
+19. Click on “Back” button
+","1. Google Chrome browser open
+2. Website page Trivia is open in browser. With text “QA Test, to start the test push the button below! good luck!” end “Start” button.
+3. 1st question page appears “Please type here your question :
+question number: 1” and input form
+4. ""Do cats usually land on their feet?"" appears in 1st question field
+5. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+6. ""Yes"" appears in 1st answer field
+7. ""No"" appears in 2nd answer field
+8. ""Maybe"" appears in 3rd answer field
+9. ""Nobody"" appears in 4th answer field
+10. Radio button next to 1st answer (""Yes"") turns blue
+11. 2st question page appears “Please type here your question :
+question number: 2”
+12. ""How many wheels does a car have?"" appears in 2nd question field
+13. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 2 ""
+14. ""1"" appears in 1st answer field
+15. ""2"" appears in 2nd answer field
+16. ""3"" appears in 3rd answer field
+17. ""4"" appears in 4th answer field
+18. Radio button next to 4th answer (""4"") turns blue
+19. Return to the previous screen showing the question ""How many wheels does a car have?"" which can be re-edited
+","1. 
+2. https://shemsvcollege.github.io/Trivia/
+3. 
+4. Do cats usually land on their feet?
+5. 
+6. Yes
+7. No
+8. Maybe
+9. Nobody knows
+10. 
+11. 
+12. How many wheels does a car have?
+13. 
+14. 1
+15. 2
+16. 3
+17. 4
+18. 
+19. 
+",,,2,,Create Trivia Game,
+33,"Functionality - ""Back"" button in  3rd answer page with mark the radio button next to the 1st answer (""Red"")","Functionality - ""Back"" button in 3rd answer page with mark the radio button next to the 1st answer (""Red"")",,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Open the Google Chrome browser
+2. Type in the URL bar “https://shemsvcollege.github.io/Trivia/ ”
+3. Click on “Start” button
+4. Fill in ""Do cats usually land on their feet?"" in 1st question field
+5. Click on “next” button
+6. Type ""Yes"" in 1st answer field
+7. Type ""No"" in 2nd answer field
+8. Type ""Maybe"" in 3rd answer field
+9. Type ""Nobody knows"" in 4th answer field
+10. Mark the radio button next to the 1st answer (""Yes"")
+11. Click on “next” button
+12. Fill in ""How many wheels does a car have?"" in 2st question field
+13. Click on “next” button
+14. Type ""1"" in 1st answer field
+15. Type ""2"" in 2nd answer field
+16. Type ""3"" in 3rd answer field""3"" appears in 3rd answer field
+17. Type ""4"" in 4th answer field""4"" appears in 4th answer field
+18. Click on “next” button
+19. Fill in ""What is the color of a tomato?"" in 3rdt question field
+20. Click on “next” button
+21. Type ""Red"" in 1st answer field
+22. Type ""Green"" in 2nd answer field
+23. Type ""Blue"" in 3rd answer field
+24. Type ""Yellow"" in 3rd answer field
+25. Mark the radio button next to the 1st answer (""Red"")
+26. Click on “Back” button
+","1. Google Chrome browser open
+2. Website page Trivia is open in browser. With text “QA Test, to start the test push the button below! good luck!” end “Start” button.
+3. 1st question page appears “Please type here your question :
+question number: 1” and input form
+4. ""Do cats usually land on their feet?"" appears in 1st question field
+5. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+6. ""Yes"" appears in 1st answer field
+7. ""No"" appears in 2nd answer field
+8. ""Maybe"" appears in 3rd answer field
+9. ""Nobody"" appears in 4th answer field
+10. Radio button next to 1st answer (""Yes"") turns blue
+11. 2st question page appears “Please type here your question :
+question number: 2”
+12. ""How many wheels does a car have?"" appears in 2nd question field
+13. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 2 ""
+14. ""1"" appears in 1st answer field
+15. ""2"" appears in 2nd answer field
+16. ""3"" appears in 3rd answer field
+17. ""4"" appears in 4th answer field
+18. 3rdt question page appears “Please type here your question :
+question number: 3 ”
+19. ""What is the color of a tomato?"" appears in 2nd question field
+20. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 3 ""
+21. ""Red"" appears in 1st answer field
+22. ""Green"" appears in 2nd answer field
+23. ""Blue"" in 3rd answer field
+24. Type ""Yellow"" in 3rd answer field
+25. Radio button 1st answer (""Blue) turns blue
+26. Return to the previous screen showing the question ""How many wheels does a car have?"" which can be re-edited
+","1. 
+2. https://shemsvcollege.github.io/Trivia/
+3. 
+4. Do cats usually land on their feet?
+5. 
+6. Yes
+7. No
+8. Maybe
+9. Nobody knows
+10. 
+11. 
+12. How many wheels does a car have?
+13. 
+14. 1
+15. 2
+16. 3
+17. 4
+18. 
+19. What is the color of a tomato?
+20. 
+21. Red
+22. Green
+23. Blue
+24. Yellow
+25. Red
+26. 
+",,,2,,Create Trivia Game,
+35,Functionality - Radio button switches from 1 answer to another in 1st question,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Type ""Yes"" in 1st answer field
+6. Type ""No"" in 2nd answer field
+7. Type ""Maybe"" in 3rd answer field
+8. Type ""Nobody knows"" in 4th answer field
+9. Mark the radio button next to the 1st answer field (""Yes"")
+10. Mark the radio button next to the 2st answer field (""No"")
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Yes"" appears in 1st answer field
+6. ""No"" appears in 2nd answer field
+7. ""Maybe"" appears in 3rd answer field
+8. ""Nobody"" appears in 4th answer field
+9. Radio button next to 1st answer (""Yes"") turns blue
+10. Radio button next to 1st answer (""No"") turns blue
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+",,,2,,Create Trivia Game,
+36,Functionality - Radio button switches from 1 answer to another in 2nd question,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Type ""Yes"" in 1st answer field
+6. Type ""No"" in 2nd answer field
+7. Type ""Maybe"" in 3rd answer field
+8. Type ""Nobody knows"" in 4th answer field
+9. Mark the radio button next to the 1st answer (""Yes"")
+10. Mark the radio button next to the 2nd answer (""No"")
+11. Click on ""next""
+12. Fill in ""How many wheels does a car have?""
+13. Click ""next""
+14. Type ""1"" in 1st answer field
+15. Type ""2"" in 2ndanswer field
+16. Type ""3"" in 3rd answer field
+17. Type ""4"" in 4th answer field
+18. Mark the radio button next to the 4th answer (""4"")
+19. Mark the radio button next to the 2nd answer (""2"")
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Yes"" appears in 1st answer field
+6. ""No"" appears in 2nd answer field
+7. ""Maybe"" appears in 3rd answer field
+8. ""Nobody"" appears in 4th answer field
+9. Radio button next to 1st answer (""Yes"") turns blue
+10. Radio button next to the 2nd answer (""No"")
+11. 2nd question page appears
+12. ""How many wheels does a car have?"" appears in 2nd question field
+13. Web page appears : ""Please type here your question :
+question number: 2""
+14. ""1"" appears in 1st answer field
+15. ""2"" appears in 2nd answer field
+16. ""3"" appears in 3rd answer field
+17. ""4"" appears in 4th answer field
+18. Radio button next to 4th answer (""4"") turns blue
+19. Radio button next to the 2nd answer (""2"") turns blue
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+",,,2,,Create Trivia Game,
+37,Functionality - Radio button switches from 1 answer to another in 3rd question,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Type ""Yes"" in 1st answer field
+6. Type ""No"" in 2nd answer field
+7. Type ""Maybe"" in 3rd answer field
+8. Type ""Nobody knows"" in 4th answer field
+9. Mark the radio button next to the 1st answer (""Yes"")
+10. Click on ""next""
+11. Fill in ""How many wheels does a car have?""
+12. Click ""next""
+13. Type ""1"" in 1st answer field
+14. Type ""2"" in 1st answer field
+15. Type ""3"" in 1st answer field
+16. Type ""4"" in 1st answer field
+17. Mark the radio button next to the 4th answer (""4"")
+18. Click ""next""
+19. Fill in ""What is the color of a tomato?"" in 3rd question field
+20. Click ""next""
+21. Type ""Green"" in 1st answer field
+22. Type ""Blue"" in 2nd answer field
+23. Type ""Red"" in 3rd answer field
+24. Type ""Yellow"" in 4th answer field
+25. Mark the radio button next to the 3rd answer (""Red"")
+26. Mark the radio button next to the 1st answer (""Green"")
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Yes"" appears in 1st answer field
+6. ""No"" appears in 2nd answer field
+7. ""Maybe"" appears in 3rd answer field
+8. ""Nobody"" appears in 4th answer field
+9. Radio button next to 1st answer (""Yes"") turns blue
+10. 2nd question page appears
+11. ""How many wheels does a car have?"" appears in 2nd question field
+12. Web page appears : ""Please type here your question :
+question number: 2""
+13. ""1"" appears in 1st answer field
+14. ""2"" appears in 2nd answer field
+15. ""3"" appears in 3rd answer field
+16. ""4"" appears in 4th answer field
+17. Radio button next to 4th answer (""4"") turns blue
+18. 3rd question page appears
+19. ""What is the color of a tomato?"" appears in 3rd question field
+20. Web page appears: ""Please type here your question :
+question number: 3""
+21. ""Green"" appears in 1st answer field
+22. ""Blue"" appears in 2nd answer field
+23. ""Red"" appears in 3rd answer field
+24. ""Yellow"" appears in 4th answer field
+25. Radio button next to 3rd answer (""Red"") turns blue
+26. Radio button next to the 1st answer (""Green"")turns blue
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+",,,2,,Create Trivia Game,
+49,Functionality – Editor question 1,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Click on “Back” button
+6. Replace the word cats with the word dogs
+7. Click on “next” button
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. Return to the previous screen showing the question ""Do cats usually land on their feet?"" which can be re-edited
+6. ""Do dogs usually land on their feet?"" appears in 1st question field
+7. 2st question page appears “Please type here your question :
+
+question number: 2”
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+",,,2,,Create Trivia Game,
+50,Functionality – Editor question 2,**Functionality – Editor question 2**,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Open the Google Chrome browser
+2. Type in the URL bar “https://shemsvcollege.github.io/Trivia/ ”
+3. Click on “Start” button
+4. Fill in ""Do cats usually land on their feet?"" in 1st question field
+5. Click on “next” button
+6. Click on “Back” button
+7. Replace the word cats with the word dogs
+8. Click on “next” button
+9. Type ""Yes"" in 1st answer field
+10. Type ""No"" in 2nd answer field
+11. Type ""Maybe"" in 3rd answer field
+12. Type ""Nobody knows"" in 4th answer field
+13. Mark the radio button next to the 1st answer (""Yes"")
+14. Click on “next” button
+15. Fill in ""How many doors does a car have?""
+16. Click on “next” button
+17. Click on “Back” button
+18. Replace the word wheels with the word doors
+19. Click on “next” button
+20. Type ""1"" in 1st answer field
+21. Type ""2"" in 2nd answer field
+22. Type ""3"" in 3rd answer field""3"" appears in 3rd answer field
+23. Type ""4"" in 4th answer field""4"" appears in 4th answer field
+24. Mark the radio button next to the 4th answer (""4"")
+25. Click on “Back” button
+26. Replace the word wheels with the word doors
+27. Click on “next” button
+","1. Google Chrome browser open
+2. Website page Trivia is open in browser. With text “QA Test, to start the test push the button below! good luck!” end “Start” button.
+3. 1st question page appears “Please type here your question :
+question number: 1” and input form
+4. ""Do cats usually land on their feet?"" appears in 1st question field
+5. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+6. Return to the previous screen showing the question ""Do cats usually land on their feet?"" which can be re-edited
+7. ""Do dogs usually land on their feet?"" appears in 1st question field
+8. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+9. ""Yes"" appears in 1st answer field
+10. ""No"" appears in 2nd answer field
+11. ""Maybe"" appears in 3rd answer field
+12. ""Nobody"" appears in 4th answer field
+13. Radio button next to 1st answer (""Yes"") turns blue
+14. 2st question page appears “Please type here your question :
+question number: 2”
+15. ""How many wheels does a car have?"" appears in 2nd question field
+16. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 2 ""
+17. Return to the previous screen showing the question ""How many doors does a car have?"" which can be re-edited
+18. How many wheels does the car have?"" appears in 2nd question field
+19. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 3 ""
+20. ""1"" appears in 1st answer field
+21. ""2"" appears in 2nd answer field
+22. ""3"" appears in 3rd answer field
+23. ""4"" appears in 4th answer field
+24. Radio button next to 4th answer (""4"") turns blue
+25. Return to the previous screen showing the question ""How many wheels does a car have?"" which can be re-edited
+26. How many doors does the car have?"" appears in 1st question field
+27. 
+","1. 
+2. https://shemsvcollege.github.io/Trivia/
+3. 
+4. Do cats usually land on their feet?
+5. 
+6. 
+7. 
+8. 
+9. Yes
+10. No
+11. Maybe
+12. Nobody knows
+13. 
+14. 
+15. How many wheels does a car have?
+16. 
+17. 
+18. 
+19. 
+20. 1
+21. 2
+22. 3
+23. 4
+24. 
+25. 
+26. 
+27. 
+",,,2,,Create Trivia Game,
+51,Functionality – Editor question 3,Functionality – Editor question 3,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Open the Google Chrome browser
+2. Type in the URL bar “https://shemsvcollege.github.io/Trivia/ ”
+3. Click on “Start” button
+4. Fill in ""Do cats usually land on their feet?"" in 1st question field
+5. Click on “next” button
+6. Type ""Yes"" in 1st answer field
+7. Type ""No"" in 2nd answer field
+8. Type ""Maybe"" in 3rd answer field
+9. Type ""Nobody knows"" in 4th answer field
+10. Mark the radio button next to the 1st answer (""Yes"")
+11. Click on “next” button
+12. Fill in ""How many wheels does a car have?"" in 2st question field
+13. Click on “next” button
+14. Type ""1"" in 1st answer field
+15. Type ""2"" in 2nd answer field
+16. Type ""3"" in 3rd answer field""3"" appears in 3rd answer field
+17. Type ""4"" in 4th answer field""4"" appears in 4th answer field
+18. Click on “next” button
+19. Fill in ""What is the color of a tomato?"" in 3rdt question field
+20. Click on “next” button
+21. Click on “Back” button
+22. Replace the word tomato with the word cucumber
+23. Click on “next” button
+24. Type ""Red"" in 1st answer field
+25. Type ""Green"" in 2nd answer field
+26. Type ""Blue"" in 3rd answer field
+27. Type ""Yellow"" in 4th answer field
+28. Mark the radio button next to the 2nd answer (""Green"")
+29. Click on “next” button
+","1. Google Chrome browser open
+2. Website page Trivia is open in browser. With text “QA Test, to start the test push the button below! good luck!” end “Start” button.
+3. 1st question page appears “Please type here your question :
+question number: 1” and input form
+4. ""Do cats usually land on their feet?"" appears in 1st question field
+5. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+6. ""Yes"" appears in 1st answer field
+7. ""No"" appears in 2nd answer field
+8. ""Maybe"" appears in 3rd answer field
+9. ""Nobody"" appears in 4th answer field
+10. Radio button next to 1st answer (""Yes"") turns blue
+11. 2st question page appears “Please type here your question :
+question number: 2”
+12. ""How many wheels does a car have?"" appears in 2nd question field
+13. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+14. ""1"" appears in 1st answer field
+15. ""2"" appears in 2nd answer field
+16. ""3"" appears in 3rd answer field
+17. ""4"" appears in 4th answer field
+18. 3rdt question page appears “Please type here your question :
+question number: 3 ”
+19. ""What is the color of a tomato?"" appears in 2nd question field
+20. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 3 ""
+21. Return to the previous screen showing the question ""How many wheels does a car have?"" which can be re-edited
+22. ""What is the color of a cucumber?"" appears in 3rd question field
+23. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 3 ""
+24. ""Red"" appears in 1st answer field
+25. ""Green"" appears in 2nd answer field
+26. ""Blue"" appears in 3rd answer field
+27. ""Yellow"" appears in 4th answer field
+28. Radio button next to 2nd answer (""Green"") turns blue
+29. Web page with message ""You finished to build the test - lets play!!"" ""Play"" button and ""QUIT"" button appears
+","1. 
+2. https://shemsvcollege.github.io/Trivia/
+3. 
+4. Do cats usually land on their feet?
+5. 
+6. Yes
+7. No
+8. Maybe
+9. Nobody knows
+10. 
+11. 
+12. How many wheels does a car have?
+13. 
+14. 1
+15. 2
+16. 3
+17. 4
+18. 
+19. What is the color of a tomato?
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
+28. 
+29. 
+",,,2,,Create Trivia Game,
+53,Functionality - Not putting question mark in question,Checking if an app automatically adds a question mark,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Open the Google Chrome browser
+2. Type in the URL bar “https://shemsvcollege.github.io/Trivia/ ”
+3. Click on “Start” button
+4. Fill in ""Do cats usually land on their feet"" in 1st question field
+5. Click on “next” button
+6. Type ""Yes"" in 1st answer field
+7. Type ""No"" in 2nd answer field
+8. Type ""Maybe"" in 3rd answer field
+9. Type ""Nobody knows"" in 4th answer field
+10. Mark the radio button next to the 1st answer (""Yes"")
+11. Click on “next” button
+12. Fill in ""How many wheels does a car have"" in 2st question field
+13. Click on “next” button
+14. Type ""1"" in 1st answer field
+15. Type ""2"" in 2nd answer field
+16. Type ""3"" in 3rd answer field""3"" appears in 3rd answer field
+17. Type ""4"" in 4th answer field""4"" appears in 4th answer field
+18. Mark the radio button next to the 4th answer (""4"")
+19. Click on “next” button
+20. Fill in ""What is the color of a tomato"" in 3rdt question field
+21. Click on “next” button
+22. Type ""Red"" in 1st answer field
+23. Type ""Green"" in 2nd answer field
+24. Type ""Blue"" in 3rd answer field
+25. Type ""Yellow"" in 4th answer field
+26. Mark the radio button next to the 1st answer (""Red"")
+27. Click on “next” button
+28. Click on ""Play"" button
+29. Mark the radio button next to the 1st answer (""Yes"")
+30. Click on “next” button
+31. Mark the radio button next to the 4th answer (""4"")
+32. Click on “next” button
+","1. Google Chrome browser open
+2. Website page Trivia is open in browser. With text “QA Test, to start the test push the button below! good luck!” end “Start” button.
+3. 1st question page appears “Please type here your question :
+question number: 1” and input form
+4. Application will complete a question mark. ""Do cats usually land on their feet?"" appears in 1st question field
+5. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+6. ""Yes"" appears in 1st answer field
+7. ""No"" appears in 2nd answer field
+8. ""Maybe"" appears in 3rd answer field
+9. ""Nobody"" appears in 4th answer field
+10. Radio button next to 1st answer (""Yes"") turns blue
+11. 2st question page appears “Please type here your question :
+question number: 2”
+12. Application will complete a question mark. ""How many wheels does a car have?"" appears in 2nd question field
+13. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+14. ""1"" appears in 1st answer field
+15. ""2"" appears in 2nd answer field
+16. ""3"" appears in 3rd answer field
+17. ""4"" appears in 4th answer field
+18. Radio button next to 4th answer (""4"") turns blue
+19. 3rdt question page appears “Please type here your question :
+question number: 3 ”
+20. Application will complete a question mark. ""What is the color of a tomato?"" appears in 2nd question field
+21. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 3 ""
+22. ""Red"" appears in 1st answer field
+23. ""Green"" appears in 2nd answer field
+24. ""Blue"" appears in 3rd answer field
+25. ""Yellow"" appears in 4th answer field
+26. Radio button next to 1st answer (""Red"") turns blue
+27. Web page with message ""You finished to build the test - lets play!!"" ""Play"" button and ""QUIT"" button appears
+28. Test page with question ""Do cats usually land on their feet?"" with answers: ""Yes"", ""No"", ""Maybe"", ""Nobody knows?"" appears
+29. Radio button next to 1st answer (""Yes"") turns blue
+30. Test page with question ""How many wheels does a car have?"" with answers: ""1"", ""2"", ""3"", ""4"" appears
+31. Radio button next to 4th answer (""4"") turns blue
+32. Test page with question ""What is the color of a tomato?"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+","1. 
+2. https://shemsvcollege.github.io/Trivia/
+3. 
+4. Do cats usually land on their feet
+5. 
+6. Yes
+7. No
+8. Maybe
+9. Nobody knows
+10. 
+11. 
+12. How many wheels does a car have
+13. 
+14. 1
+15. 2
+16. 3
+17. 4
+18. 
+19. 
+20. What is the color of a tomato
+21. 
+22. Red
+23. Green
+24. Blue
+25. Yellow
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 
+",,,2,,Create Trivia Game,
+56,BV - 50 characters in question field,## 50 characters (not include a question mark),,,,undefined,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. Open the Google Chrome browser
+2. Type in the URL bar “https://shemsvcollege.github.io/Trivia/ ”
+3. Click on “Start” button
+4. Type a question with 50 characters (not include a question mark) ""Nam quis nulla. Integer malesuada. In in enim a ar"" in 1st question field
+5. Click on “next” button
+6. Type ""Yes"" in 1st answer field
+7. Type ""No"" in 2nd answer field
+8. Type ""Maybe"" in 3rd answer field
+9. Type ""Nobody knows"" in 4th answer field
+10. Mark the radio button next to the 1st answer (""Yes"")
+11. Click on “next” button
+12. Type a question with 50 characters (not include a question mark) ""Nam quis nulla. Integer malesuada. In in enim a ar""
+13. Click on “next” button
+14. Type ""1"" in 1st answer field
+15. Type ""2"" in 2nd answer field
+16. Type ""3"" in 3rd answer field""3"" appears in 3rd answer field
+17. Type ""4"" in 4th answer field""4"" appears in 4th answer field
+18. Mark the radio button next to the 4th answer (""4"")
+19. Click on “next” button
+20. Type a question with 50 characters (not include a question mark) ""Nam quis nulla. Integer malesuada. In in enim a ar"" in 3rdt question field
+21. Click on “next” button
+","1. Google Chrome browser open
+2. Website page Trivia is open in browser. With text “QA Test, to start the test push the button below! good luck!” end “Start” button.
+3. 1st question page appears “Please type here your question :
+question number: 1” and input form
+4. ""Nam quis nulla. Integer malesuada. In in enim a ar?"" appears in 1st question field
+5. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+6. ""Yes"" appears in 1st answer field
+7. ""No"" appears in 2nd answer field
+8. ""Maybe"" appears in 3rd answer field
+9. ""Nobody"" appears in 4th answer field
+10. Radio button next to 1st answer (""Yes"") turns blue
+11. 2st question page appears “Please type here your question :
+question number: 2”
+12. ""Nam quis nulla. Integer malesuada. In in enim a ar?"" appears in 2nd question field
+13. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+14. ""1"" appears in 1st answer field
+15. ""2"" appears in 2nd answer field
+16. ""3"" appears in 3rd answer field
+17. ""4"" appears in 4th answer field
+18. Radio button next to 4th answer (""4"") turns blue
+19. 3rdt question page appears “Please type here your question :
+question number: 3 ”
+20. ""Nam quis nulla. Integer malesuada. In in enim a ar?"" appears in 2nd question field
+21. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 3 ""
+","1. 
+2. https://shemsvcollege.github.io/Trivia/
+3. 
+4. Nam quis nulla. Integer malesuada. In in enim a ar
+5. 
+6. Yes
+7. No
+8. Maybe
+9. Nobody knows
+10. 
+11. 
+12. Nam quis nulla. Integer malesuada. In in enim a ar
+13. 
+14. 1
+15. 2
+16. 3
+17. 4
+18. 
+19. 
+20. Nam quis nulla. Integer malesuada. In in enim a ar
+21. 
+",,,2,,Create Trivia Game,
+52,"Functionality - ""Quit"" button when done filling Q&A","Functionality - ""Quit"" button when done filling Q&A",,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Open the Google Chrome browser
+2. Type in the URL bar “https://shemsvcollege.github.io/Trivia/ ”
+3. Click on “Start” button
+4. Fill in ""Do cats usually land on their feet?"" in 1st question field
+5. Click on “next” button
+6. Type ""Yes"" in 1st answer field
+7. Type ""No"" in 2nd answer field
+8. Type ""Maybe"" in 3rd answer field
+9. Type ""Nobody knows"" in 4th answer field
+10. Mark the radio button next to the 1st answer (""Yes"")
+11. Click on “next” button
+12. Fill in ""How many wheels does a car have?"" in 2st question field
+13. Click on “next” button
+14. Type ""1"" in 1st answer field
+15. Type ""2"" in 2nd answer field
+16. Type ""3"" in 3rd answer field""3"" appears in 3rd answer field
+17. Type ""4"" in 4th answer field""4"" appears in 4th answer field
+18. Click on “next” button
+19. Fill in ""What is the color of a tomato?"" in 3rdt question field
+20. Click on “next” button
+21. Type ""Red"" in 1st answer field
+22. Type ""Green"" in 2nd answer field
+23. Type ""Blue"" in 3rd answer field
+24. Type ""Yellow"" in 4th answer field
+25. Mark the radio button next to the 1st answer (""Red"")
+26. Click on “next” button
+27. Click on ""QUIT"" button
+","1. Google Chrome browser open
+2. Website page Trivia is open in browser. With text “QA Test, to start the test push the button below! good luck!” end “Start” button.
+3. 1st question page appears “Please type here your question :
+question number: 1” and input form
+4. ""Do cats usually land on their feet?"" appears in 1st question field
+5. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+6. ""Yes"" appears in 1st answer field
+7. ""No"" appears in 2nd answer field
+8. ""Maybe"" appears in 3rd answer field
+9. ""Nobody"" appears in 4th answer field
+10. Radio button next to 1st answer (""Yes"") turns blue
+11. 2st question page appears “Please type here your question :
+question number: 2”
+12. ""How many wheels does a car have?"" appears in 2nd question field
+13. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+14. ""1"" appears in 1st answer field
+15. ""2"" appears in 2nd answer field
+16. ""3"" appears in 3rd answer field
+17. ""4"" appears in 4th answer field
+18. 3rdt question page appears “Please type here your question :
+question number: 3 ”
+19. ""What is the color of a tomato?"" appears in 2nd question field
+20. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 3 ""
+21. ""Red"" appears in 1st answer field
+22. ""Green"" appears in 2nd answer field
+23. ""Blue"" appears in 3rd answer field
+24. ""Yellow"" appears in 4th answer field
+25. Radio button next to 1st answer (""Red"") turns blue
+26. Web page with message ""You finished to build the test - lets play!!"" ""Play"" button and ""QUIT"" button appears
+27. The app will close
+","1. 
+2. https://shemsvcollege.github.io/Trivia/
+3. 
+4. Do cats usually land on their feet?
+5. 
+6. Yes
+7. No
+8. Maybe
+9. Nobody knows
+10. 
+11. 
+12. How many wheels does a car have?
+13. 
+14. 1
+15. 2
+16. 3
+17. 4
+18. 
+19. What is the color of a tomato?
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
+",,,3,,Playing The Trivia Game,
+57,"Functionality - ""Play"" button when done filling Q&A","Functionality - ""Quit"" button when done filling Q&A",,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Open the Google Chrome browser
+2. Type in the URL bar “https://shemsvcollege.github.io/Trivia/ ”
+3. Click on “Start” button
+4. Fill in ""Do cats usually land on their feet?"" in 1st question field
+5. Click on “next” button
+6. Type ""Yes"" in 1st answer field
+7. Type ""No"" in 2nd answer field
+8. Type ""Maybe"" in 3rd answer field
+9. Type ""Nobody knows"" in 4th answer field
+10. Mark the radio button next to the 1st answer (""Yes"")
+11. Click on “next” button
+12. Fill in ""How many wheels does a car have?"" in 2st question field
+13. Click on “next” button
+14. Type ""1"" in 1st answer field
+15. Type ""2"" in 2nd answer field
+16. Type ""3"" in 3rd answer field""3"" appears in 3rd answer field
+17. Type ""4"" in 4th answer field""4"" appears in 4th answer field
+18. Click on “next” button
+19. Fill in ""What is the color of a tomato?"" in 3rdt question field
+20. Click on “next” button
+21. Type ""Red"" in 1st answer field
+22. Type ""Green"" in 2nd answer field
+23. Type ""Blue"" in 3rd answer field
+24. Type ""Yellow"" in 4th answer field
+25. Mark the radio button next to the 1st answer (""Red"")
+26. Click on “next” button
+27. Click on ""Play"" button
+","1. Google Chrome browser open
+2. Website page Trivia is open in browser. With text “QA Test, to start the test push the button below! good luck!” end “Start” button.
+3. 1st question page appears “Please type here your question :
+question number: 1” and input form
+4. ""Do cats usually land on their feet?"" appears in 1st question field
+5. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+6. ""Yes"" appears in 1st answer field
+7. ""No"" appears in 2nd answer field
+8. ""Maybe"" appears in 3rd answer field
+9. ""Nobody"" appears in 4th answer field
+10. Radio button next to 1st answer (""Yes"") turns blue
+11. 2st question page appears “Please type here your question :
+question number: 2”
+12. ""How many wheels does a car have?"" appears in 2nd question field
+13. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+14. ""1"" appears in 1st answer field
+15. ""2"" appears in 2nd answer field
+16. ""3"" appears in 3rd answer field
+17. ""4"" appears in 4th answer field
+18. 3rdt question page appears “Please type here your question :
+question number: 3 ”
+19. ""What is the color of a tomato?"" appears in 2nd question field
+20. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 3 ""
+21. ""Red"" appears in 1st answer field
+22. ""Green"" appears in 2nd answer field
+23. ""Blue"" appears in 3rd answer field
+24. ""Yellow"" appears in 4th answer field
+25. Radio button next to 1st answer (""Red"") turns blue
+26. Web page with message ""You finished to build the test - lets play!!"" ""Play"" button and ""QUIT"" button appears
+27. The game will start. Test page with question ""What is the color of a tomato?"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+","1. 
+2. https://shemsvcollege.github.io/Trivia/
+3. 
+4. Do cats usually land on their feet?
+5. 
+6. Yes
+7. No
+8. Maybe
+9. Nobody knows
+10. 
+11. 
+12. How many wheels does a car have?
+13. 
+14. 1
+15. 2
+16. 3
+17. 4
+18. 
+19. What is the color of a tomato?
+20. 
+21. Red
+22. Green
+23. Blue
+24. Yellow
+25. 
+26. 
+27. 
+",,,3,,Playing The Trivia Game,
+58,"Functionality - Questions will appear from the end to the beginning (3,2,1).","questions will appear from the end to the beginning (3,2,1).
+""What is the color of a tomato?"", ""How many wheels does a car have?"",Do cats usually land on their feet?""",,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Open the Google Chrome browser
+2. Type in the URL bar “https://shemsvcollege.github.io/Trivia/ ”
+3. Click on “Start” button
+4. Fill in ""Do cats usually land on their feet?"" in 1st question field
+5. Click on “next” button
+6. Type ""Yes"" in 1st answer field
+7. Type ""No"" in 2nd answer field
+8. Type ""Maybe"" in 3rd answer field
+9. Type ""Nobody knows"" in 4th answer field
+10. Mark the radio button next to the 1st answer (""Yes"")
+11. Click on “next” button
+12. Fill in ""How many wheels does a car have?"" in 2st question field
+13. Click on “next” button
+14. Type ""1"" in 1st answer field
+15. Type ""2"" in 2nd answer field
+16. Type ""3"" in 3rd answer field""3"" appears in 3rd answer field
+17. Type ""4"" in 4th answer field""4"" appears in 4th answer field
+18. Mark the radio button next to the 4th answer (""4"")
+19. Click on “next” button
+20. Fill in ""What is the color of a tomato?"" in 3rdt question field
+21. Click on “next” button
+22. Type ""Red"" in 1st answer field
+23. Type ""Green"" in 2nd answer field
+24. Type ""Blue"" in 3rd answer field
+25. Type ""Yellow"" in 4th answer field
+26. Mark the radio button next to the 1st answer (""Red"")
+27. Click on “next” button
+28. Click on ""Play"" button
+29. Mark the radio button next to the 1st answer (""Yes"")
+30. Click on “next” button
+31. Mark the radio button next to the 4th answer (""4"")
+32. Click on “next” button
+","1. Google Chrome browser open
+2. Website page Trivia is open in browser. With text “QA Test, to start the test push the button below! good luck!” end “Start” button.
+3. 1st question page appears “Please type here your question :
+question number: 1” and input form
+4. Application will complete a question mark. ""Do cats usually land on their feet?"" appears in 1st question field
+5. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+6. ""Yes"" appears in 1st answer field
+7. ""No"" appears in 2nd answer field
+8. ""Maybe"" appears in 3rd answer field
+9. ""Nobody"" appears in 4th answer field
+10. Radio button next to 1st answer (""Yes"") turns blue
+11. 2st question page appears “Please type here your question :
+question number: 2”
+12. Application will complete a question mark. ""How many wheels does a car have?"" appears in 2nd question field
+13. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+14. ""1"" appears in 1st answer field
+15. ""2"" appears in 2nd answer field
+16. ""3"" appears in 3rd answer field
+17. ""4"" appears in 4th answer field
+18. Radio button next to 4th answer (""4"") turns blue
+19. 3rdt question page appears “Please type here your question :
+question number: 3 ”
+20. Application will complete a question mark. ""What is the color of a tomato?"" appears in 2nd question field
+21. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 3 ""
+22. ""Red"" appears in 1st answer field
+23. ""Green"" appears in 2nd answer field
+24. ""Blue"" appears in 3rd answer field
+25. ""Yellow"" appears in 4th answer field
+26. Radio button next to 1st answer (""Red"") turns blue
+27. Web page with message ""You finished to build the test - lets play!!"" ""Play"" button and ""QUIT"" button appears
+28. Test page with question ""What is the color of a tomato?"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+29. Radio button next to 1st answer (""Yes"") turns blue
+30. Test page with question ""How many wheels does a car have?"" with answers: ""1"", ""2"", ""3"", ""4"" appears
+31. Radio button next to 4th answer (""4"") turns blue
+32. Test page with question ""Do cats usually land on their feet?"" with answers: ""Yes"", ""No"", ""Maybe"", ""Nobody knows?"" appears
+","1. 
+2. https://shemsvcollege.github.io/Trivia/
+3. 
+4. Do cats usually land on their feet?
+5. 
+6. Yes
+7. No
+8. Maybe
+9. Nobody knows
+10. 
+11. 
+12. How many wheels does a car have?
+13. 
+14. 1
+15. 2
+16. 3
+17. 4
+18. 
+19. 
+20. What is the color of a tomato?
+21. 
+22. Red
+23. Green
+24. Blue
+25. Yellow
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 
+",,,3,,Playing The Trivia Game,
+59,EH - Radio button switches from 1 answer to another,"Only one radio button can be marked as a correct answer. After marking the correct answer, if we want
+Mark another answer as a correct answer, the mark will disappear and appear next to the other answer, so you can always mark
+Only one answer is correct.",,,,undefined,normal,other,negative,is-not-automated,actual,no,unknown,classic,"1. Open the Google Chrome browser
+2. Type in the URL bar “https://shemsvcollege.github.io/Trivia/ ”
+3. Click on “Start” button
+4. Fill in ""Do cats usually land on their feet?"" in 1st question field
+5. Click on “next” button
+6. Type ""Yes"" in 1st answer field
+7. Type ""No"" in 2nd answer field
+8. Type ""Maybe"" in 3rd answer field
+9. Type ""Nobody knows"" in 4th answer field
+10. Mark the radio button next to the 1st answer (""Yes"")
+11. Click on “next” button
+12. Fill in ""How many wheels does a car have?"" in 2st question field
+13. Click on “next” button
+14. Type ""1"" in 1st answer field
+15. Type ""2"" in 2nd answer field
+16. Type ""3"" in 3rd answer field""3"" appears in 3rd answer field
+17. Type ""4"" in 4th answer field""4"" appears in 4th answer field
+18. Mark the radio button next to the 4th answer (""4"")
+19. Click on “next” button
+20. Fill in ""What is the color of a tomato?"" in 3rdt question field
+21. Click on “next” button
+22. Type ""Red"" in 1st answer field
+23. Type ""Green"" in 2nd answer field
+24. Type ""Blue"" in 3rd answer field
+25. Type ""Yellow"" in 4th answer field
+26. Mark the radio button next to the 1st answer (""Red"")
+27. Click on “next” button
+28. Click on ""Play"" button
+29. Mark the radio button next to the 4th answer (""Yellow"")
+30. Mark the radio button next to the 1st answer (""Red"")
+31. Click on “next” button
+","1. Google Chrome browser open
+2. Website page Trivia is open in browser. With text “QA Test, to start the test push the button below! good luck!” end “Start” button.
+3. 1st question page appears “Please type here your question :
+question number: 1” and input form
+4. Application will complete a question mark. ""Do cats usually land on their feet?"" appears in 1st question field
+5. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+6. ""Yes"" appears in 1st answer field
+7. ""No"" appears in 2nd answer field
+8. ""Maybe"" appears in 3rd answer field
+9. ""Nobody"" appears in 4th answer field
+10. Radio button next to 1st answer (""Yes"") turns blue
+11. 2st question page appears “Please type here your question :
+question number: 2”
+12. Application will complete a question mark. ""How many wheels does a car have?"" appears in 2nd question field
+13. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+14. ""1"" appears in 1st answer field
+15. ""2"" appears in 2nd answer field
+16. ""3"" appears in 3rd answer field
+17. ""4"" appears in 4th answer field
+18. Radio button next to 4th answer (""4"") turns blue
+19. 3rdt question page appears “Please type here your question :
+question number: 3 ”
+20. Application will complete a question mark. ""What is the color of a tomato?"" appears in 2nd question field
+21. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 3 ""
+22. ""Red"" appears in 1st answer field
+23. ""Green"" appears in 2nd answer field
+24. ""Blue"" appears in 3rd answer field
+25. ""Yellow"" appears in 4th answer field
+26. Radio button next to 1st answer (""Red"") turns blue
+27. Web page with message ""You finished to build the test - lets play!!"" ""Play"" button and ""QUIT"" button appears
+28. Test page with question ""What is the color of a tomato?"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+29. Radio button next to 4th answer (""Yellow"") turns blue
+30. Radio button next to 1st answer (""Red"") turns blue
+31. Test page with question How many wheels does a car have?"" with answers: ""1"", ""2"", ""3"", ""4"" appears
+","1. 
+2. https://shemsvcollege.github.io/Trivia/
+3. 
+4. Do cats usually land on their feet?
+5. 
+6. Yes
+7. No
+8. Maybe
+9. Nobody knows
+10. 
+11. 
+12. How many wheels does a car have?
+13. 
+14. 1
+15. 2
+16. 3
+17. 4
+18. 
+19. 
+20. What is the color of a tomato?
+21. 
+22. Red
+23. Green
+24. Blue
+25. Yellow
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+",,,3,,Playing The Trivia Game,
+60,"EH  - Click on ""next"" without answer option chosen",,,,,undefined,normal,other,negative,is-not-automated,actual,no,unknown,classic,"1. Open the Google Chrome browser
+2. Type in the URL bar “https://shemsvcollege.github.io/Trivia/ ”
+3. Click on “Start” button
+4. Fill in ""Do cats usually land on their feet?"" in 1st question field
+5. Click on “next” button
+6. Type ""Yes"" in 1st answer field
+7. Type ""No"" in 2nd answer field
+8. Type ""Maybe"" in 3rd answer field
+9. Type ""Nobody knows"" in 4th answer field
+10. Mark the radio button next to the 1st answer (""Yes"")
+11. Click on “next” button
+12. Fill in ""How many wheels does a car have?"" in 2st question field
+13. Click on “next” button
+14. Type ""1"" in 1st answer field
+15. Type ""2"" in 2nd answer field
+16. Type ""3"" in 3rd answer field""3"" appears in 3rd answer field
+17. Type ""4"" in 4th answer field""4"" appears in 4th answer field
+18. Mark the radio button next to the 4th answer (""4"")
+19. Click on “next” button
+20. Fill in ""What is the color of a tomato?"" in 3rdt question field
+21. Click on “next” button
+22. Type ""Red"" in 1st answer field
+23. Type ""Green"" in 2nd answer field
+24. Type ""Blue"" in 3rd answer field
+25. Type ""Yellow"" in 4th answer field
+26. Mark the radio button next to the 1st answer (""Red"")
+27. Click on “next” button
+28. Click on ""Play"" button
+29. Click on “next” button
+","1. Google Chrome browser open
+2. Website page Trivia is open in browser. With text “QA Test, to start the test push the button below! good luck!” end “Start” button.
+3. 1st question page appears “Please type here your question :
+question number: 1” and input form
+4. Application will complete a question mark. ""Do cats usually land on their feet?"" appears in 1st question field
+5. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+6. ""Yes"" appears in 1st answer field
+7. ""No"" appears in 2nd answer field
+8. ""Maybe"" appears in 3rd answer field
+9. ""Nobody"" appears in 4th answer field
+10. Radio button next to 1st answer (""Yes"") turns blue
+11. 2st question page appears “Please type here your question :
+question number: 2”
+12. Application will complete a question mark. ""How many wheels does a car have?"" appears in 2nd question field
+13. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+14. ""1"" appears in 1st answer field
+15. ""2"" appears in 2nd answer field
+16. ""3"" appears in 3rd answer field
+17. ""4"" appears in 4th answer field
+18. Radio button next to 4th answer (""4"") turns blue
+19. 3rdt question page appears “Please type here your question :
+question number: 3 ”
+20. Application will complete a question mark. ""What is the color of a tomato?"" appears in 2nd question field
+21. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 3 ""
+22. ""Red"" appears in 1st answer field
+23. ""Green"" appears in 2nd answer field
+24. ""Blue"" appears in 3rd answer field
+25. ""Yellow"" appears in 4th answer field
+26. Radio button next to 1st answer (""Red"") turns blue
+27. Web page with message ""You finished to build the test - lets play!!"" ""Play"" button and ""QUIT"" button appears
+28. Test page with question ""What is the color of a tomato?"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+29. Error message will pop up ""You have to mark an answer!!""
+","1. 
+2. https://shemsvcollege.github.io/Trivia/
+3. 
+4. Do cats usually land on their feet?
+5. 
+6. Yes
+7. No
+8. Maybe
+9. Nobody knows
+10. 
+11. 
+12. How many wheels does a car have?
+13. 
+14. 1
+15. 2
+16. 3
+17. 4
+18. 
+19. 
+20. What is the color of a tomato?
+21. 
+22. Red
+23. Green
+24. Blue
+25. Yellow
+26. 
+27. 
+28. 
+29. 
+",,,3,,Playing The Trivia Game,
+63,"Functionality – clicking ""Next!"" button the next question will appear","By clicking Next! the next question will appear (question number 2), and so will the one after it (question number 3).",,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Open the Google Chrome browser
+2. Type in the URL bar “https://shemsvcollege.github.io/Trivia/ ”
+3. Click on “Start” button
+4. Fill in ""Do cats usually land on their feet?"" in 1st question field
+5. Click on “next” button
+6. Type ""Yes"" in 1st answer field
+7. Type ""No"" in 2nd answer field
+8. Type ""Maybe"" in 3rd answer field
+9. Type ""Nobody knows"" in 4th answer field
+10. Mark the radio button next to the 1st answer (""Yes"")
+11. Click on “next” button
+12. Fill in ""How many wheels does a car have?"" in 2st question field
+13. Click on “next” button
+14. Type ""1"" in 1st answer field
+15. Type ""2"" in 2nd answer field
+16. Type ""3"" in 3rd answer field""3"" appears in 3rd answer field
+17. Type ""4"" in 4th answer field""4"" appears in 4th answer field
+18. Mark the radio button next to the 4th answer (""4"")
+19. Click on “next” button
+20. Fill in ""What is the color of a tomato?"" in 3rdt question field
+21. Click on “next” button
+22. Type ""Red"" in 1st answer field
+23. Type ""Green"" in 2nd answer field
+24. Type ""Blue"" in 3rd answer field
+25. Type ""Yellow"" in 4th answer field
+26. Mark the radio button next to the 1st answer (""Red"")
+27. Click on “next” button
+28. Click on ""Play"" button
+29. Mark the radio button next to the 1st answer (""Yes"")
+30. Click on “next” button
+31. Mark the radio button next to the 4th answer (""4"")
+32. Click on “next” button
+","1. Google Chrome browser open
+2. Website page Trivia is open in browser. With text “QA Test, to start the test push the button below! good luck!” end “Start” button.
+3. 1st question page appears “Please type here your question :
+question number: 1” and input form
+4. Application will complete a question mark. ""Do cats usually land on their feet?"" appears in 1st question field
+5. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+6. ""Yes"" appears in 1st answer field
+7. ""No"" appears in 2nd answer field
+8. ""Maybe"" appears in 3rd answer field
+9. ""Nobody"" appears in 4th answer field
+10. Radio button next to 1st answer (""Yes"") turns blue
+11. 2st question page appears “Please type here your question :
+question number: 2”
+12. Application will complete a question mark. ""How many wheels does a car have?"" appears in 2nd question field
+13. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 1 ""
+14. ""1"" appears in 1st answer field
+15. ""2"" appears in 2nd answer field
+16. ""3"" appears in 3rd answer field
+17. ""4"" appears in 4th answer field
+18. Radio button next to 4th answer (""4"") turns blue
+19. 3rdt question page appears “Please type here your question :
+question number: 3 ”
+20. Application will complete a question mark. ""What is the color of a tomato?"" appears in 2nd question field
+21. Web page appears : "" Please enter 4 possible answers and Mark the right one!
+question number: 3 ""
+22. ""Red"" appears in 1st answer field
+23. ""Green"" appears in 2nd answer field
+24. ""Blue"" appears in 3rd answer field
+25. ""Yellow"" appears in 4th answer field
+26. Radio button next to 1st answer (""Red"") turns blue
+27. Web page with message ""You finished to build the test - lets play!!"" ""Play"" button and ""QUIT"" button appears
+28. Test page with question ""What is the color of a tomato?"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+29. Radio button next to 1st answer (""Yes"") turns blue
+30. Test page with question ""How many wheels does a car have?"" with answers: ""1"", ""2"", ""3"", ""4"" appears
+31. Radio button next to 4th answer (""4"") turns blue
+32. Test page with question ""Do cats usually land on their feet?"" with answers: ""Yes"", ""No"", ""Maybe"", ""Nobody knows?"" appears
+","1. 
+2. https://shemsvcollege.github.io/Trivia/
+3. 
+4. Do cats usually land on their feet?
+5. 
+6. Yes
+7. No
+8. Maybe
+9. Nobody knows
+10. 
+11. 
+12. How many wheels does a car have?
+13. 
+14. 1
+15. 2
+16. 3
+17. 4
+18. 
+19. 
+20. What is the color of a tomato?
+21. 
+22. Red
+23. Green
+24. Blue
+25. Yellow
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 
+",,,3,,Playing The Trivia Game,
+43,Functionality - 1 wrong answer,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Type ""Yes"" in 1st answer field
+6. Type ""No"" in 2nd answer field
+7. Type ""Maybe"" in 3rd answer field
+8. Type ""Nobody knows"" in 4th answer field
+9. Mark the radio button next to the 1st answer (""Yes"")
+10. Click on ""next""
+11. Fill in ""How many wheels does a car have?""
+12. Click ""next""
+13. Type ""1"" in 1st answer field
+14. Type ""2"" in 1st answer field
+15. Type ""3"" in 1st answer field
+16. Type ""4"" in 1st answer field
+17. Mark the radio button next to the 4th answer (""4"")
+18. Click ""next""
+19. Fill in ""What is the color of a tomato?"" in 3rd question field
+20. Click ""next""
+21. Type ""Green"" in 1st answer field
+22. Type ""Blue"" in 2nd answer field
+23. Type ""Red"" in 3rd answer field
+24. Type ""Yellow"" in 4th answer field
+25. Mark the radio button next to the 3rd answer (""Red"")
+26. Click ""next""
+27. Click ""play""
+28. Click on radio button next to the 3rd question ""Red""
+29. Click ""next""
+30. Mark the radio button next to the 4th answer (""4"")
+31. Click ""next""
+32. Click on radio button next to the 2nd question ""No""
+33. Click ""next""
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Yes"" appears in 1st answer field
+6. ""No"" appears in 2nd answer field
+7. ""Maybe"" appears in 3rd answer field
+8. ""Nobody"" appears in 4th answer field
+9. Radio button next to 1st answer (""Yes"") turns blue
+10. 2nd question page appears
+11. ""How many wheels does a car have?"" appears in 2nd question field
+12. Web page appears : ""Please type here your question :
+question number: 2""
+13. ""1"" appears in 1st answer field
+14. ""2"" appears in 2nd answer field
+15. ""3"" appears in 3rd answer field
+16. ""4"" appears in 4th answer field
+17. Radio button next to 4th answer (""4"") turns blue
+18. 3rd question page appears
+19. ""What is the color of a tomato?"" appears in 3rd question field
+20. Web page appears: ""Please type here your question :
+question number: 3""
+21. ""Green"" appears in 1st answer field
+22. ""Blue"" appears in 2nd answer field
+23. ""Red"" appears in 3rd answer field
+24. ""Yellow"" appears in 4th answer field
+25. Radio button next to 3rd answer (""Red"") turns blue
+26. ""You finished to build the test - lets play!!"" Appears on next page
+27. Test page with question ""What is the color of a tomato?"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+28. Radio button next to 3rd answer (""Red"") turns blue
+29. Test page with question ""How many wheels does a car have?""?"" with answers: ""1"", ""2"", ""3"", ""4"" appears
+30. Radio button next to 4th answer (""4"") turns blue
+31. Test page with question ""Do cats usually land on their feet?"" with answers: ""Yes"", ""No"", ""Maybe"", ""Nobody knows"" appears
+32. Radio button next to 2nd answer (""No"") turns blue
+33. \*Result page with ""Failed!!"" appears
+\*Facebook share button appears
+\*""Try again"" and ""Quit"" buttons appear
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 
+33. 
+",,,10,,Results,
+44,Functionality - 2 wrong answers,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Type ""Yes"" in 1st answer field
+6. Type ""No"" in 2nd answer field
+7. Type ""Maybe"" in 3rd answer field
+8. Type ""Nobody knows"" in 4th answer field
+9. Mark the radio button next to the 1st answer (""Yes"")
+10. Click on ""next""
+11. Fill in ""How many wheels does a car have?""
+12. Click ""next""
+13. Type ""1"" in 1st answer field
+14. Type ""2"" in 1st answer field
+15. Type ""3"" in 1st answer field
+16. Type ""4"" in 1st answer field
+17. Mark the radio button next to the 4th answer (""4"")
+18. Click ""next""
+19. Fill in ""What is the color of a tomato?"" in 3rd question field
+20. Click ""next""
+21. Type ""Green"" in 1st answer field
+22. Type ""Blue"" in 2nd answer field
+23. Type ""Red"" in 3rd answer field
+24. Type ""Yellow"" in 4th answer field
+25. Mark the radio button next to the 3rd answer (""Red"")
+26. Click ""next""
+27. Click ""play""
+28. Click on radio button next to the 1st question ""Green""
+29. Click ""next""
+30. Mark the radio button next to the 4th answer (""4"")
+31. Click ""next""
+32. Click on radio button next to the 2nd question ""No""
+33. Click ""next""
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Yes"" appears in 1st answer field
+6. ""No"" appears in 2nd answer field
+7. ""Maybe"" appears in 3rd answer field
+8. ""Nobody"" appears in 4th answer field
+9. Radio button next to 1st answer (""Yes"") turns blue
+10. 2nd question page appears
+11. ""How many wheels does a car have?"" appears in 2nd question field
+12. Web page appears : ""Please type here your question :
+question number: 2""
+13. ""1"" appears in 1st answer field
+14. ""2"" appears in 2nd answer field
+15. ""3"" appears in 3rd answer field
+16. ""4"" appears in 4th answer field
+17. Radio button next to 4th answer (""4"") turns blue
+18. 3rd question page appears
+19. ""What is the color of a tomato?"" appears in 3rd question field
+20. Web page appears: ""Please type here your question :
+question number: 3""
+21. ""Green"" appears in 1st answer field
+22. ""Blue"" appears in 2nd answer field
+23. ""Red"" appears in 3rd answer field
+24. ""Yellow"" appears in 4th answer field
+25. Radio button next to 3rd answer (""Red"") turns blue
+26. ""You finished to build the test - lets play!!"" Appears on next page
+27. Test page with question ""What is the color of a tomato?"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+28. Radio button next to 1st answer (""Green"") turns blue
+29. Test page with question ""How many wheels does a car have?""?"" with answers: ""1"", ""2"", ""3"", ""4"" appears
+30. Radio button next to 4th answer (""4"") turns blue
+31. Test page with question ""Do cats usually land on their feet?"" with answers: ""Yes"", ""No"", ""Maybe"", ""Nobody knows"" appears
+32. Radio button next to 2nd answer (""No"") turns blue
+33. \*Result page with ""Failed!!"" appears
+\*Facebook share button appears
+\*""Try again"" and ""Quit"" buttons appear
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 
+33. 
+",,,10,,Results,
+45,Integration  - Share trivia results on facebook,,,,,undefined,normal,integration,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next"" button
+5. Type ""Yes"" in 1st answer field
+6. Type ""No"" in 2nd answer field
+7. Type ""Maybe"" in 3rd answer field
+8. Type ""Nobody knows"" in 4th answer field
+9. Mark the radio button next to the 1st answer (""Yes"")
+10. Click on ""next"" button
+11. Fill in ""How many wheels does a car have?""
+12. Click ""next"" button
+13. Type ""1"" in 1st answer field
+14. Type ""2"" in 1st answer field
+15. Type ""3"" in 1st answer field
+16. Type ""4"" in 1st answer field
+17. Mark the radio button next to the 4th answer (""4"")
+18. Click ""next"" button
+19. Fill in ""What is the color of a tomato?"" in 3rd question field
+20. Click ""next"" button
+21. Type ""Green"" in 1st answer field
+22. Type ""Blue"" in 2nd answer field
+23. Type ""Red"" in 3rd answer field
+24. Type ""Yellow"" in 4th answer field
+25. Mark the radio button next to the 3rd answer (""Red"")
+26. Click ""next"" button
+27. Click ""play"" button
+28. Click on radio button next to the 3rd question ""Red""
+29. Click ""next"" button
+30. Mark the radio button next to the 4th answer (""4"")
+31. Click ""next"" button
+32. Click on radio button next to the 1st question ""Yes""
+33. Click ""next"" button
+34. Click ""Share on Facebook"" button
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Yes"" appears in 1st answer field
+6. ""No"" appears in 2nd answer field
+7. ""Maybe"" appears in 3rd answer field
+8. ""Nobody"" appears in 4th answer field
+9. Radio button next to 1st answer (""Yes"") turns blue
+10. 2nd question page appears
+11. ""How many wheels does a car have?"" appears in 2nd question field
+12. Web page appears : ""Please type here your question :
+question number: 2""
+13. ""1"" appears in 1st answer field
+14. ""2"" appears in 2nd answer field
+15. ""3"" appears in 3rd answer field
+16. ""4"" appears in 4th answer field
+17. Radio button next to 4th answer (""4"") turns blue
+18. 3rd question page appears
+19. ""What is the color of a tomato?"" appears in 3rd question field
+20. Web page appears: ""Please type here your question :
+question number: 3""
+21. ""Green"" appears in 1st answer field
+22. ""Blue"" appears in 2nd answer field
+23. ""Red"" appears in 3rd answer field
+24. ""Yellow"" appears in 4th answer field
+25. Radio button next to 3rd answer (""Red"") turns blue
+26. ""You finished to build the test - lets play!!"" Appears on next page
+27. Test page with question ""What is the color of a tomato?"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+28. Radio button next to 3rd answer (""Red"") turns blue
+29. Test page with question ""How many wheels does a car have?""?"" with answers: ""1"", ""2"", ""3"", ""4"" appears
+30. Radio button next to 4th answer (""4"") turns blue
+31. Test page with question ""Do cats usually land on their feet?"" with answers: ""Yes"", ""No"", ""Maybe"", ""Nobody knows"" appears
+32. Radio button next to 1st answer (""Yes"") turns blue
+33. \*Result page with ""Success"" appears
+\*Facebook share button appears
+\*""Try again"" and ""Quit"" buttons appear
+34. Result is shared on facebook
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 
+33. 
+34. 
+",,,10,,Results,
+46,Functionality - Try again once finished playing,,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next"" button
+5. Type ""Yes"" in 1st answer field
+6. Type ""No"" in 2nd answer field
+7. Type ""Maybe"" in 3rd answer field
+8. Type ""Nobody knows"" in 4th answer field
+9. Mark the radio button next to the 1st answer (""Yes"")
+10. Click on ""next"" button
+11. Fill in ""How many wheels does a car have?""
+12. Click ""next"" button
+13. Type ""1"" in 1st answer field
+14. Type ""2"" in 1st answer field
+15. Type ""3"" in 1st answer field
+16. Type ""4"" in 1st answer field
+17. Mark the radio button next to the 4th answer (""4"")
+18. Click ""next"" button
+19. Fill in ""What is the color of a tomato?"" in 3rd question field
+20. Click ""next"" button
+21. Type ""Green"" in 1st answer field
+22. Type ""Blue"" in 2nd answer field
+23. Type ""Red"" in 3rd answer field
+24. Type ""Yellow"" in 4th answer field
+25. Mark the radio button next to the 3rd answer (""Red"")
+26. Click ""next"" button
+27. Click ""play"" button
+28. Click on radio button next to the 3rd question ""Red""
+29. Click ""next"" button
+30. Mark the radio button next to the 4th answer (""4"")
+31. Click ""next"" button
+32. Click on radio button next to the 1st question ""Yes""
+33. Click ""next"" button
+34. Click ""Try again"" button
+35. Mark the radio button next to the correct answer (as given in the game creation steps)
+36. Click ""next"" button
+37. Mark the radio button next to the correct answer (as given in the game creation steps)
+38. Click ""next"" button
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Yes"" appears in 1st answer field
+6. ""No"" appears in 2nd answer field
+7. ""Maybe"" appears in 3rd answer field
+8. ""Nobody"" appears in 4th answer field
+9. Radio button next to 1st answer (""Yes"") turns blue
+10. 2nd question page appears
+11. ""How many wheels does a car have?"" appears in 2nd question field
+12. Web page appears : ""Please type here your question :
+question number: 2""
+13. ""1"" appears in 1st answer field
+14. ""2"" appears in 2nd answer field
+15. ""3"" appears in 3rd answer field
+16. ""4"" appears in 4th answer field
+17. Radio button next to 4th answer (""4"") turns blue
+18. 3rd question page appears
+19. ""What is the color of a tomato?"" appears in 3rd question field
+20. Web page appears: ""Please type here your question :
+question number: 3""
+21. ""Green"" appears in 1st answer field
+22. ""Blue"" appears in 2nd answer field
+23. ""Red"" appears in 3rd answer field
+24. ""Yellow"" appears in 4th answer field
+25. Radio button next to 3rd answer (""Red"") turns blue
+26. ""You finished to build the test - lets play!!"" Appears on next page
+27. Test page with question ""What is the color of a tomato?"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+28. Radio button next to 3rd answer (""Red"") turns blue
+29. Test page with question ""How many wheels does a car have?""?"" with answers: ""1"", ""2"", ""3"", ""4"" appears
+30. Radio button next to 4th answer (""4"") turns blue
+31. Test page with question ""Do cats usually land on their feet?"" with answers: ""Yes"", ""No"", ""Maybe"", ""Nobody knows"" appears
+32. Radio button next to 1st answer (""Yes"") turns blue
+33. \*Result page with ""Success"" appears
+\*Facebook share button appears
+\*""Try again"" and ""Quit"" buttons appear
+34. Test page with one of the questions appears randomly
+35. Radio button chosen turns blue
+36. Test page with one of the questions appears randomly
+37. Radio button chosen turns blue
+38. Test page with one of the questions appears randomly
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 
+33. 
+34. 
+35. 
+36. 
+37. 
+38. 
+",,,10,,Results,
+48,"Functionality - ""Quit"" option in result page",,,,,undefined,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. login to https://shemsvcollege.github.io/Trivia/
+2. Click on ""start"" button
+3. Fill in ""Do cats usually land on their feet?"" in 1st question field
+4. Click ""next""
+5. Type ""Yes"" in 1st answer field
+6. Type ""No"" in 2nd answer field
+7. Type ""Maybe"" in 3rd answer field
+8. Type ""Nobody knows"" in 4th answer field
+9. Mark the radio button next to the 1st answer (""Yes"")
+10. Click on ""next""
+11. Fill in ""How many wheels does a car have?""
+12. Click ""next""
+13. Type ""1"" in 1st answer field
+14. Type ""2"" in 1st answer field
+15. Type ""3"" in 1st answer field
+16. Type ""4"" in 1st answer field
+17. Mark the radio button next to the 4th answer (""4"")
+18. Click ""next""
+19. Fill in ""What is the color of a tomato?"" in 3rd question field
+20. Click ""next""
+21. Type ""Green"" in 1st answer field
+22. Type ""Blue"" in 2nd answer field
+23. Type ""Red"" in 3rd answer field
+24. Type ""Yellow"" in 4th answer field
+25. Mark the radio button next to the 3rd answer (""Red"")
+26. Click ""next""
+27. Click ""play""
+28. Click on radio button next to the 3rd question ""Red""
+29. Click ""next""
+30. Mark the radio button next to the 4th answer (""4"")
+31. Click ""next""
+32. Click on radio button next to the 1st question ""Yes""
+33. Click ""next""
+34. Click ""Quit"" button
+","1. The main page ""https://shemsvcollege.github.io/Trivia/"" will open
+2. 1st question page appears
+3. ""Do cats usually land on their feet?"" appears in 1st question field
+4. Web page appears : ""Please type here your question :
+question number: 1""
+5. ""Yes"" appears in 1st answer field
+6. ""No"" appears in 2nd answer field
+7. ""Maybe"" appears in 3rd answer field
+8. ""Nobody"" appears in 4th answer field
+9. Radio button next to 1st answer (""Yes"") turns blue
+10. 2nd question page appears
+11. ""How many wheels does a car have?"" appears in 2nd question field
+12. Web page appears : ""Please type here your question :
+question number: 2""
+13. ""1"" appears in 1st answer field
+14. ""2"" appears in 2nd answer field
+15. ""3"" appears in 3rd answer field
+16. ""4"" appears in 4th answer field
+17. Radio button next to 4th answer (""4"") turns blue
+18. 3rd question page appears
+19. ""What is the color of a tomato?"" appears in 3rd question field
+20. Web page appears: ""Please type here your question :
+question number: 3""
+21. ""Green"" appears in 1st answer field
+22. ""Blue"" appears in 2nd answer field
+23. ""Red"" appears in 3rd answer field
+24. ""Yellow"" appears in 4th answer field
+25. Radio button next to 3rd answer (""Red"") turns blue
+26. ""You finished to build the test - lets play!!"" Appears on next page
+27. Test page with question ""What is the color of a tomato?"" with answers: ""Red"", ""Green"", ""Blue"", ""Yellow"" appears
+28. Radio button next to 3rd answer (""Red"") turns blue
+29. Test page with question ""How many wheels does a car have?""?"" with answers: ""1"", ""2"", ""3"", ""4"" appears
+30. Radio button next to 4th answer (""4"") turns blue
+31. Test page with question ""Do cats usually land on their feet?"" with answers: ""Yes"", ""No"", ""Maybe"", ""Nobody knows"" appears
+32. Radio button next to 1st answer (""Yes"") turns blue
+33. \*Result page with ""Success"" appears
+\*Facebook share button appears
+\*""Try again"" and ""Quit"" buttons appear
+34. Application Closes
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 
+33. 
+34. 
+",,,10,,Results,

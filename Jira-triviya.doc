@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://anna-test.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [STQ-6]&nbsp;<a href="https://anna-test.atlassian.net/browse/STQ-6">GUI Bug - Responsiveness problem - </a>
+            <span class="subText">
+               Created: 06/Aug/22                   &nbsp;Updated: 06/Aug/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anna-test.atlassian.net/secure/BrowseProject.jspa?id=10003">SV Trivia - QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="609d3fa15998a60068fcf1fb"
+                id="word_reporter_609d3fa15998a60068fcf1fb"
+                href="https://anna-test.atlassian.net/secure/ViewProfile.jspa?accountId=609d3fa15998a60068fcf1fb">
+                    Anna Sharipkin
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10011-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anna-test.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File">
+                    STQ-6-1.JPG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://anna-test.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File">
+                    STQ-6.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Severity:</b></td>
+                <td id="customfield_10036-10011-value" class="value" bgcolor="#ffffff" width="80%">    Normal
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Steps:</b></p>
+
+<ol>
+	<li>Open the Google Chrome browser</li>
+	<li>Type in the URL bar “<a href="https://shemsvcollege.github.io/Trivia/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://shemsvcollege.github.io/Trivia/</a>  ”</li>
+	<li>Click the "Restore down" button in the browser to resize  the browser window</li>
+</ol>
+
+
+<p><b>Expected Result:</b></p>
+
+<p>Site will adjust itself to the screen size</p>
+
+<p><b>Actual Result:</b></p>
+
+<p>The web site doesn't know how to change and adapt its shape to the width of the screen. The text goes outside the button's borders.</p>
+
+<p><b>Notes:</b> A bug exists on all pages of the site</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [STQ-5]&nbsp;<a href="https://anna-test.atlassian.net/browse/STQ-5">GUI Bug - The &quot;Next&quot; button starts with a small letter, and the &quot;Back&quot; button with a capital letter. Inconsistent writing on the site</a>
+            <span class="subText">
+               Created: 06/Aug/22                   &nbsp;Updated: 06/Aug/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anna-test.atlassian.net/secure/BrowseProject.jspa?id=10003">SV Trivia - QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="609d3fa15998a60068fcf1fb"
+                id="word_reporter_609d3fa15998a60068fcf1fb"
+                href="https://anna-test.atlassian.net/secure/ViewProfile.jspa?accountId=609d3fa15998a60068fcf1fb">
+                    Anna Sharipkin
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10010-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anna-test.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File">
+                    STQ-5.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Severity:</b></td>
+                <td id="customfield_10036-10010-value" class="value" bgcolor="#ffffff" width="80%">    Normal
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Steps:</b> </p>
+
+<ol>
+	<li>Open the Google Chrome browser</li>
+	<li>Type in the URL bar “<a href="https://shemsvcollege.github.io/Trivia/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://shemsvcollege.github.io/Trivia/</a>  ”</li>
+	<li>Click on “Start” button</li>
+	<li>Fill in "Do cats usually land on their feet?" in 1st question field</li>
+</ol>
+
+
+<p><b>Expected Result:</b></p>
+
+<p>Buttons with the same design and lettering style</p>
+
+<p><b>Actual Result:</b></p>
+
+<p>The "Next" button starts with a small letter, and the "Back" button with a capital letter. Inconsistent writing on the site</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [STQ-4]&nbsp;<a href="https://anna-test.atlassian.net/browse/STQ-4">GUI Bug - A duplicate website background image is printed on the screen several times</a>
+            <span class="subText">
+               Created: 06/Aug/22                   &nbsp;Updated: 06/Aug/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anna-test.atlassian.net/secure/BrowseProject.jspa?id=10003">SV Trivia - QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="609d3fa15998a60068fcf1fb"
+                id="word_reporter_609d3fa15998a60068fcf1fb"
+                href="https://anna-test.atlassian.net/secure/ViewProfile.jspa?accountId=609d3fa15998a60068fcf1fb">
+                    Anna Sharipkin
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10009-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anna-test.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File">
+                    STQ-4.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Severity:</b></td>
+                <td id="customfield_10036-10009-value" class="value" bgcolor="#ffffff" width="80%">    Very High
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Steps:</b></p>
+
+<ol>
+	<li>Open the Google Chrome browser</li>
+	<li>Type in the URL bar “<a href="https://shemsvcollege.github.io/Trivia/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://shemsvcollege.github.io/Trivia/</a>  ”</li>
+</ol>
+
+
+<p><b>Expected Result:</b> A background image will fill the entire screen uniformly.</p>
+
+<p><b>Actual Result:</b> A duplicate website background image is printed on the screen several times.</p>
+
+<p><b>Notes:</b> A bug appears on all pages of the application</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [STQ-3]&nbsp;<a href="https://anna-test.atlassian.net/browse/STQ-3">Question up to 50 characters  (not including a question mark)</a>
+            <span class="subText">
+               Created: 06/Aug/22                   &nbsp;Updated: 06/Aug/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anna-test.atlassian.net/secure/BrowseProject.jspa?id=10003">SV Trivia - QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="609d3fa15998a60068fcf1fb"
+                id="word_reporter_609d3fa15998a60068fcf1fb"
+                href="https://anna-test.atlassian.net/secure/ViewProfile.jspa?accountId=609d3fa15998a60068fcf1fb">
+                    Anna Sharipkin
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10008-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Severity:</b></td>
+                <td id="customfield_10036-10008-value" class="value" bgcolor="#ffffff" width="80%">    Low
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Steps:</b> </p>
+
+<ol>
+	<li>Open the Google Chrome browser</li>
+	<li>Type in the URL bar “<a href="https://shemsvcollege.github.io/Trivia/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://shemsvcollege.github.io/Trivia/</a>  ”</li>
+	<li>Click on “Start” button</li>
+	<li>Type a question with 50 characters (not include a question mark) "Nam quis nulla. Integer malesuada. In in enim a ar?" in 1st question field</li>
+	<li>Click on “next” button</li>
+</ol>
+
+
+<p><b>Expected Result:</b></p>
+
+<p>The question we wrote will appear in the typing field and clicking the “next”  button  appears Web page : " Please enter 4 possible answers and Mark the right one&#33;<br/>
+question number: 1 "</p>
+
+<p><b>Actual Result:</b></p>
+
+<p>The content of the field is deleted</p>
+
+<p><b>Notes:</b></p>
+
+<p>I also tested a 50 character question with a question mark,<br/>
+50 character question without question mark, 49 character question with question mark.<br/>
+The bug disappears only in a question with exactly 49 characters without a question mark.</p>
+
+<p>There is a bug in the 3 questions</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [STQ-2]&nbsp;<a href="https://anna-test.atlassian.net/browse/STQ-2">App does not automatically add the question mark in the question</a>
+            <span class="subText">
+               Created: 06/Aug/22                   &nbsp;Updated: 06/Aug/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anna-test.atlassian.net/secure/BrowseProject.jspa?id=10003">SV Trivia - QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="609d3fa15998a60068fcf1fb"
+                id="word_reporter_609d3fa15998a60068fcf1fb"
+                href="https://anna-test.atlassian.net/secure/ViewProfile.jspa?accountId=609d3fa15998a60068fcf1fb">
+                    Anna Sharipkin
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10007-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anna-test.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File">
+                    SRQ-2-2.JPG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://anna-test.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File">
+                    SRQ-2-3.JPG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://anna-test.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File">
+                    SRQ-2-4.JPG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://anna-test.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File">
+                    SRQ-2.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Severity:</b></td>
+                <td id="customfield_10036-10007-value" class="value" bgcolor="#ffffff" width="80%">    Normal
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Steps:</b></p>
+
+<ol>
+	<li>Open the Google Chrome browser</li>
+	<li>Type in the URL bar “<a href="https://shemsvcollege.github.io/Trivia/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://shemsvcollege.github.io/Trivia/</a>  ”</li>
+	<li>Click on “Start” button</li>
+	<li>Fill in "Do cats usually land on their feet" in 1st question field</li>
+	<li>Click on “next” button</li>
+	<li>Type "Yes" in 1st answer field</li>
+	<li>Type "No" in 2nd answer field</li>
+	<li>Type "Maybe" in 3rd answer field</li>
+	<li>Type "Nobody knows" in 4th answer field</li>
+	<li>Mark the radio button next to the 1st answer ("Yes")</li>
+	<li>Click on “next” button</li>
+	<li>Fill in "How many wheels does a car have" in 2st question field</li>
+	<li>Click on “next” button</li>
+	<li>Type "1" in 1st answer field</li>
+	<li>Type "2" in 2nd answer field</li>
+	<li>Type "3" in 3rd answer field"3" appears in 3rd answer field</li>
+	<li>Type "4" in 4th answer field"4" appears in 4th answer field</li>
+	<li>Mark the radio button next to the 4th answer ("4")</li>
+	<li>Click on “next” button</li>
+	<li>Fill in "What is the color of a tomato" in 3rdt question field</li>
+	<li>Click on “next” button</li>
+	<li>Type "Red" in 1st answer field</li>
+	<li>Type "Green" in 2nd answer field</li>
+	<li>Type "Blue" in 3rd answer field</li>
+	<li>Type "Yellow" in 4th answer field</li>
+	<li>Mark the radio button next to the 1st answer ("Red")</li>
+	<li>Click on “next” button</li>
+	<li>Click on "Play" button</li>
+	<li>Mark the radio button next to the 1st answer ("Yes")</li>
+	<li>Click on “next” button</li>
+	<li>Mark the radio button next to the 4th answer ("4")</li>
+	<li>Click on “next” button</li>
+</ol>
+
+
+<p><b>Expected Result:</b></p>
+
+<p>If you did not add a question mark - the application will already add it by itself.</p>
+
+<p><b>Actual Result:</b></p>
+
+<p>Application does not complete the missing question mark in the question</p>
+
+<p><b>Notes:</b></p>
+
+<p>Even if you go back to editing a question, you see that a question mark has not been added to the end of the question. The test fails the three trivia questions.</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10003/10003_SRQ-2.JPG" height="608" width="1235" style="border: 0px solid black" /></span></p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10002/10002_SRQ-2-2.JPG" height="768" width="1257" style="border: 0px solid black" /></span></p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10004/10004_SRQ-2-3.JPG" height="765" width="1217" style="border: 0px solid black" /></span></p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10005/10005_SRQ-2-4.JPG" height="768" width="1256" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [STQ-1]&nbsp;<a href="https://anna-test.atlassian.net/browse/STQ-1">&quot;Quit&quot; button when done filling Q&amp;A</a>
+            <span class="subText">
+               Created: 05/Aug/22                   &nbsp;Updated: 05/Aug/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anna-test.atlassian.net/secure/BrowseProject.jspa?id=10003">SV Trivia - QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="609d3fa15998a60068fcf1fb"
+                id="word_reporter_609d3fa15998a60068fcf1fb"
+                href="https://anna-test.atlassian.net/secure/ViewProfile.jspa?accountId=609d3fa15998a60068fcf1fb">
+                    Anna Sharipkin
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10006-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p><b>Steps:</b> </p>
+
+<ol>
+	<li>Open the Google Chrome browser</li>
+	<li>Type in the URL bar “<a href="https://shemsvcollege.github.io/Trivia/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://shemsvcollege.github.io/Trivia/</a>  ”</li>
+	<li>Click on “Start” button</li>
+	<li>Fill in "Do cats usually land on their feet?" in 1st question field</li>
+	<li>Click on “next” button</li>
+	<li>Type "Yes" in 1st answer field</li>
+	<li>Type "No" in 2nd answer field</li>
+	<li>Type "Maybe" in 3rd answer field</li>
+	<li>Type "Nobody knows" in 4th answer field</li>
+	<li>Mark the radio button next to the 1st answer ("Yes")</li>
+	<li>Click on “next” button</li>
+	<li>Fill in "How many wheels does a car have?" in 2st question field</li>
+	<li>Click on “next” button</li>
+	<li>Type "1" in 1st answer field</li>
+	<li>Type "2" in 2nd answer field</li>
+	<li>Type "3" in 3rd answer field"3" appears in 3rd answer field</li>
+	<li>Type "4" in 4th answer field"4" appears in 4th answer field</li>
+	<li>Click on “next” button</li>
+	<li>Fill in "What is the color of a tomato?" in 3rdt question field</li>
+	<li>Click on “next” button</li>
+	<li>Type "Red" in 1st answer field</li>
+	<li>Type "Green" in 2nd answer field</li>
+	<li>Type "Blue" in 3rd answer field</li>
+	<li>Type "Yellow" in 4th answer field</li>
+	<li>Mark the radio button next to the 1st answer ("Red")</li>
+	<li>Click on “next” button</li>
+	<li>Click on "QUIT" button</li>
+</ol>
+
+
+<p><b>Expected Result:</b>  The app will close.</p>
+
+<p><b>Actual Result:</b> Button does not respond, there is no change in the browser page.</p>
+
+<p><b>Notes:</b></p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10001/10001_STQ-1.JPG" height="922" width="1854" style="border: 0px solid black" /></span></p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anna-test.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="JPEG File">
+                    STQ-1.JPG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Severity:</b></td>
+                <td id="customfield_10036-10006-value" class="value" bgcolor="#ffffff" width="80%">    Normal
+</td>
+            </tr>
+            </table>
+
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generated at Sat Aug 06 16:54:40 UTC 2022 by Anna Sharipkin using Jira 1001.0.0-SNAPSHOT#100204-sha1:d47675641dc1167128df8dadeb86b79ba7f4f508.
+
+</body>
+</html>
